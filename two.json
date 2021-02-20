@@ -1,0 +1,7 @@
+{
+  "baseUrl": "http://localhost:1338/",
+  "port": 1338,
+  "linkServers": [
+    "http://localhost:1336"
+  ]
+}

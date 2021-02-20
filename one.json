@@ -1,0 +1,38 @@
+{
+  "baseUrl": "http://localhost:1336",
+  "endpoints": [
+    {
+      "baseUrl": "https://airquality-frost.k8s.ilt-dmz.iosb.fraunhofer.de",
+      "resourceId": "b52aa44e-1456-4b9b-9203-29b0ffb13717",
+      "headerAllowlist": [
+        "Content-Type"
+      ],
+      "methodsAllowlist": [
+        "HEAD",
+        "OPTIONS",
+        "GET",
+        "POST",
+        "PUT",
+        "PATCH",
+        "DELETE"
+      ]
+    },
+    {
+      "baseUrl": "http://localhost:8080/FROST-Server",
+      "resourceId": "66f41eb7-67e9-4080-8932-8299b7e6ae72",
+      "headerAllowlist": [
+        "Content-Type"
+      ],
+      "methodsAllowlist": [
+        "HEAD",
+        "OPTIONS",
+        "GET",
+        "POST",
+        "PUT",
+        "PATCH",
+        "DELETE"
+      ]
+    }
+  ],
+  "port": 1336
+}
